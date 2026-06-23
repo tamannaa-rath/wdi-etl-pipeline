@@ -1,0 +1,24 @@
+# Raw data — too large for git (3.6GB)
+data/raw/*.csv
+
+# Keep samples folder (small files, safe to commit)
+!data/samples/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# uv
+.uv/
+
+# Environment / secrets
+.env
+.env.local
+
+# Docker
+*.log
+
+# OS
+.DS_Store
