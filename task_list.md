@@ -15,10 +15,10 @@ Progress: **0 / 10 phases complete**
 ---
 
 ## Phase 1 — Extraction
-**Status:** ⬜ Not Started
+**Status:** ✅ Complete
 
-- [ ] **Build `extract.py`** — Owner: Himanshu — Read the 3.6GB CSV in fixed-size chunks using pandas `read_csv(chunksize=...)`. Goal: make the full file readable without crashing memory.
-- [ ] **Verify row integrity** — Owner: Himanshu — Sum chunk row counts and compare against the `wc -l` total (8,894,932). Goal: confirm no rows silently dropped.
+- [x] **Build `extract.py`** — Owner: Himanshu — Read the 3.6GB CSV in fixed-size chunks using pandas `read_csv(chunksize=...)`. Goal: make the full file readable without crashing memory.
+- [x] **Verify row integrity** — Owner: Himanshu — Sum chunk row counts and compare against the `wc -l` total (8,894,932). Goal: confirm no rows silently dropped.
 
 **Definition of Done:** Full file reads end-to-end, row count matches exactly.
 
